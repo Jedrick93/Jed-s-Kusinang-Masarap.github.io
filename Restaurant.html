@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome for social media icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <title>Jed's Kusinang Masarap</title>
+
+  <style>
+    #hero {
+      position: relative;
+      overflow: hidden;
+    }
+
+    #hero img {
+      width: 100%;
+      opacity: 0.8;
+      transition: opacity 0.5s ease-in-out;
+      border-radius: 15px;
+    }
+
+    #about img {
+      width: 100%;
+      border-radius: 15px;
+    }
+
+    #hero:hover img {
+      opacity: 1;
+    }
+
+    .custom-card-img {
+      height: 300px; /* Set the desired height for the images */
+      object-fit: cover; /* Ensure images maintain aspect ratio and cover the container */
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+    <div class="container">
+      <a class="navbar-brand text-dark" href="#">Jed's Kusinang Masarap</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="bg-dark text-light text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Jed's Kusinang Masarap</h1>
+      <p class="lead"> Lutong Bahay, Paborito ng Pusong Pinoy</p>
+      <img src="resto.jpg" class="img-fluid" alt="Banner Image"> 
+    </div>
+  </section>
+
+  <!-- About Us -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">About Us</h2>
+      
+      <img src="restaurant.jpg" class="img-fluid" alt="Banner Image"> 
+      <br><br>
+      <p>Indulge in the heartwarming flavors of Filipino cuisine at Jed's Kusinang Masarap! Our kitchen is a treasure trove of home-cooked goodness, bringing you the authentic taste of Lutong Bahay, truly the Paborito ng Pusong Pinoy. Immerse yourself in the warmth of our welcoming ambiance, where every dish is a celebration of heritage and every bite is a nostalgic journey. At Jed's, we take pride in crafting dishes that pay homage to traditional favorites while embracing the cozy familiarity of a Filipino home kitchen. Come join us for a culinary experience that goes beyond the ordinary, where the love for good food and the essence of home merge seamlessly. </p>
+      <p>Lutong Bahay, Paborito ng Pusong Pinoy — only at Jed's Kusinang Masarap! Our menu is a symphony of flavors, from the savory delights of our adobo to the sweet endings of our halo-halo, ensuring each visit is not just a meal but a memory etched in the heart of every true food enthusiast.</p>
+    </div>
+  </section>
+<hr>
+ <!-- Menu Section -->
+<section id="menu" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Our Menu</h2>
+
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="food1.jpeg" class="card-img-top custom-card-img" alt="Food 1">
+          <div class="card-body">
+            <h5 class="card-title">Lechon</h5>
+            <p class="card-text">A suckling pig is a piglet fed on its mother's milk. In culinary contexts, a suckling pig is slaughtered between the ages of two and six weeks. It is traditionally cooked whole, often roasted, in various cuisines. It is usually prepared for special occasions and gatherings.</p>
+            <p class="card-text"><strong>$10.99</strong></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="food2.jpg" class="card-img-top custom-card-img" alt="Food 2">
+          <div class="card-body">
+            <h5 class="card-title">Sinigang na Hipon</h5>
+            <p class="card-text">Sinigang na Hipon is a Filipino main dish having shrimp as the main ingredient. Fresh Shrimps and vegetables are cooked by boiling in a sour broth. The commonly used souring agent is tamarind. However, other fruits such as guava, tomato, bilimbi (known as kamias), green mango, pineapple, and wild mangosteen (santol) can also be used.</p>
+            <p class="card-text"><strong>$20.99</strong></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="food3.jpg" class="card-img-top custom-card-img" alt="Food 2">
+          <div class="card-body">
+            <h5 class="card-title">Adobong Manok</h5>
+            <p class="card-text">The vinegar marinade makes a dish that stores very well in the Filipino heat. Endless varieties of adobo exist and each region has its own specialty. Besides chicken and pork, adobo can be made with fish, squid, green bean and even eggplant.</p>
+            <p class="card-text"><strong>$32.50</strong></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="food4.jpg" class="card-img-top custom-card-img" alt="Food 2">
+          <div class="card-body">
+            <h5 class="card-title">Beef Caldereta</h5>
+            <p class="card-text">Kaldereta or caldereta is a goat meat stew from the Philippines. Variations of the dish use beef, chicken, or pork. Commonly, the goat meat is stewed with vegetables and liver paste. Vegetables may include tomatoes, potatoes, olives, bell peppers, and hot peppers.</p>
+            <p class="card-text"><strong>$39.75</strong></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="food5.jpg" class="card-img-top custom-card-img" alt="Food 2">
+          <div class="card-body">
+            <h5 class="card-title">Pork Menudo</h5>
+            <p class="card-text">A classic Mexican dish, menudo is a spicy tripe and hominy soup known as a cure for hangovers. The spices are traditionally combined before serving and placed at the side of the bowl of menudo with a slice of lime.</p>
+            <p class="card-text"><strong>$50.20</strong></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="food6.jpg" class="card-img-top custom-card-img" alt="Food 2">
+          <div class="card-body">
+            <h5 class="card-title">Sizzling Pork Sisig</h5>
+            <p class="card-text">a Filipino dish made from pork jowl and ears (maskara), pork belly, and chicken liver, which is usually seasoned with calamansi, onions, and chili peppers.</p>
+            <p class="card-text"><strong>$30.99</strong></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="food7.jpg" class="card-img-top custom-card-img" alt="Food 2">
+          <div class="card-body">
+            <h5 class="card-title">Tuna Panga</h5>
+            <p class="card-text">It's the uniquely Filipino sweet-savory basting sauce that complements the smoky flavors of this grilled tuna jaw. Topped with crunchy garlic, this dish is perfect to serve with steamed, garlic, or java rice on a bed of banana leaves!</p>
+            <p class="card-text"><strong>$46.00</strong></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="food8.jpg" class="card-img-top custom-card-img" alt="Food 2">
+          <div class="card-body">
+            <h5 class="card-title">Beef Tapa</h5>
+            <p class="card-text">Tapa is dried or cured beef, pork, mutton, venison or horse meat, although other meat or even fish may be used. Filipinos prepare tapa by using thin slices of meat and curing these with salt and spices as a preservation method.</p>
+            <p class="card-text"><strong>$38.75</strong></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="food9.jpg" class="card-img-top custom-card-img" alt="Food 2">
+          <div class="card-body">
+            <h5 class="card-title">Pares</h5>
+            <p class="card-text">A serving of Filipino braised beef stew with garlic fried rice, and a bowl of clear soup.</p>
+            <p class="card-text"><strong>$47.99</strong></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="testimonials" class="bg-light text-center py-5">
+    <div class="container">
+      <h2 class="mb-4">Testimonials</h2>
+
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">"Amazing food! The flavors are outstanding, and the service is top-notch. A must-try
+                for any food enthusiast!"</p>
+              <p class="card-text"><strong>- Food Critic 1</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">"I can't get enough of the dishes here. Each bite is a burst of delight. Highly
+                recommended!"</p>
+              <p class="card-text"><strong>- Happy Customer 1</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">"Exceptional food quality and excellent ambiance. I keep coming back for more!"</p>
+              <p class="card-text"><strong>- Foodie Explorer</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light text-left py-3">
+    <div class="container">
+      <div class="row">
+
+ <section id="contact" class="bg-dark text-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Contact Us</h2>
+      <p class="text-center">For reservations and inquiries, please contact us:</p>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-light">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <div class="col-md-6 text-center mx-auto">
+    <p>Follow us on social media:</p>
+    <a href="#" class="text-light"><i class="fab fa-facebook fa-lg mx-2"></i></a>
+    <a href="#" class="text-light"><i class="fab fa-twitter fa-lg mx-2"></i></a>
+    <a href="#" class="text-light"><i class="fab fa-instagram fa-lg mx-2"></i></a>
+    <a href="#" class="text-light"><i class="fab fa-linkedin fa-lg mx-2"></i></a>
+  </div>
+    <p class="mt-3 text-center">&copy; 2024 Jed's Kusinang Masarap. All rights reserved.</p>
+  </footer>
+
+
+</body>
+
+</html>
+
+
+
+
